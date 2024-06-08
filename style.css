@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Audiowide", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color:darkblue;
+}
+
+.nav-link:hover {
+    background-color:gold;
+    border-radius:30px;
+}
+
+.navbar-brand img{
+    transition:.42s;
+}
+.navbar-brand img:hover{
+    transform: scale(1.05);
+}
+.navbar-brand {
+     transition:.42s;
+     color:
+}
+
+.navbar-brand:hover{
+    transform: scale(1.05);
+    filter:drop-shadow(0 0 40px aliceblue);
+} 
+
+#about .container .text-center  h2{
+    
+   
+    color:darkblue;
+    font-size:40px;
+    
+    
+}
+
+
+#service .container .text-center  h2{
+    
+   
+    color:darkblue;
+    font-size:40px;
+    
+    
+}
+
+#skills .container .text-center  h2{
+    
+   
+    color:darkblue;
+    font-size:40px;
+    
+    
+}
+
+#project .container .text-center  h2{
+    
+   
+    color:darkblue;
+    font-size:40px;
+    
+    
+}
+
+#contact .container .text-center  h2{
+    
+   
+    color:darkblue;
+    font-size:40px;
+    
+    
+}
+
+
+.banner{
+    background-image: url(assets/img/wal4.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    height:77vh;
+
+}
+
+
+
+@media (min-width:300px) and (max-width:768px){
+    .banner {
+        width:100%;
+        height:134vh;
+    }
+    .inf h4,h1{
+       margin-left:10%;
+      
+        
+    }
+    .ln {
+       margin-left:10%;
+    }
+    .ph img{
+       
+       margin:auto;
+       
+
+       
+    }
+}
+
+.ph img {
+    transition:.42s;
+}
+
+.ph img:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px aliceblue);
+} 
+
+.ln .btn {
+    transition:.42s;
+}
+
+.ln .btn:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px white);
+} 
+.ab img {
+    transition:.42s;
+    border-radius:40px;
+}
+
+.ab img:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+} 
+
+#service .container .row .col  {
+    transition: all .42s;
+    background-color: azure;
+    border-radius:20px;
+    
+}
+
+#service .container .row  .col:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+   
+} 
+
+
+#skills .container .row .text h4 {
+    transition: all .42s;
+    
+    
+}
+
+#skills .container .row  .text h4:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+   
+} 
+
+#skills .container .row .icon{
+    transition: all .42s;
+    border-radius:10px;
+    
+    
+}
+
+#skills .container .row  .icon:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+} 
+
+#skills .container .row .txt h4{
+    transition: all .42s;
+    border-radius:10px;
+    
+    
+}
+
+#skills .container .row  .txt h4:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+} 
+
+#project .container .row .col{
+    transition: all .42s;
+}
+
+#project .container .row  .col:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+} 
+
+#contact .container .row .info .icon-square i{
+    transition: all .42s;
+}
+
+#contact .container .row  .info .icon-square i:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+}
+
+#contact .container .row .icons a{
+    transition: all .42s;
+}
+
+#contact .container .row  .icons a:hover{
+   transform: scale(1.05);
+   filter:drop-shadow(0 0 40px darkblue);
+}
+
+.lst{
+    transition: all .42s;
+}
+.lst:hover{
+    transform: scale(1.05);
+    filter:drop-shadow(0 0 40px darkblue);
+}
+.text-center h2{
+    transition: all .42s;
+}
+
+.text-center h2:hover{
+    transform: scale(1.05);
+    filter:drop-shadow(0 0 40px darkblue);
+
+}
+
+
+
+
+
